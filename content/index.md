@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: My Writeup Groove
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+Gotta build up the site as time goes on. 
+Check out my [github](https://github.com/grey-4)!
+
