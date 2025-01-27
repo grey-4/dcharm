@@ -505,11 +505,11 @@ int32_t main(int32_t argc, char** argv, char** envp)
 
 Key logic:
 
-- `var_28` = `"aeiousvowels\\idonothing"`.
-- The string is passed to `sub_13bc`, which checks if a file named `"aeiousvowels\\idonothing"` exists.
+- `var_28` = `"aeiousvowels\idonothing"`.
+- The string is passed to `sub_13bc`, which checks if a file named `"aeiousvowels\idonothing"` exists.
 - If the file exists, it proceeds to XOR the string in `sub_1189` and prints the result.
 
-**Solution:** Create a file named `"aeiousvowels\\idonothing"` and run the challenge file. Doing so, I got:
+**Solution:** Create a file named `aeiousvowels\idonothing` and run the challenge file. Doing so, I got:
 
 ![](https://grey-4.github.io/picture-repo/codefestctf/Nothing_1.png)
 
