@@ -539,4 +539,4 @@ The well-awaited sanity challenge. The FINAL BOSS!
 
 This CTF was fun. I had lots of learning and exploration. And I scored well too!
 
-**Note:** It is written before sanity because I know the risks. :)
+**Note:** It is written before sanity because I know the risks :)
