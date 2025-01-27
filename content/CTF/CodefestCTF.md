@@ -1,3 +1,8 @@
+
+![](https://grey-4.github.io/picture-repo/codefestctf/banner.png)
+
+---
+
 Yesterday, I had participated in the CTF event organized by [IIT(BHU)](https://iitbhu.ac.in/), Varanasi. It was a tedious 36-hour CTF event. Going solo (almost), I had one hell of a time solving challenges alone. This CTF had challenges in categories such as:
 
 - OSINT
@@ -15,7 +20,6 @@ Wow... okay. That's a lot of categories. Our team managed to solve 20 Out of the
 > Caution: It's gonna be a big write-up.
 
 ---
-
 # OSINT
 
 ## JEE (Advanced)
@@ -35,8 +39,6 @@ Upon viewing his profile, I got this:
 
 `Flag: CodefestCTF{2022_858}`
 
----
-
 ## JEE Main
 
 Desc:
@@ -49,8 +51,6 @@ This one was very easy. I saw images in the Google search and found this YouTube
 
 `Flag: CodefestCTF{99.72}`
 
----
-
 ## Alias
 
 Desc:
@@ -62,8 +62,6 @@ This was the easiest one for me. I had tried to search for his social media, whi
 ![](https://grey-4.github.io/picture-repo/codefestctf/alias_sol.png)
 
 `Flag: CodefestCTF{iedfa}`
-
----
 
 ## CP
 
@@ -81,8 +79,6 @@ And searching with `iedfa`, I got the ratings:
 
 `Flag: CodefestCTF{1687_1769_2018}`
 
----
-
 ## Github
 
 Desc:
@@ -94,8 +90,6 @@ This challenge is also related to the Alias challenge. Since it says Github, I s
 ![](https://grey-4.github.io/picture-repo/codefestctf/github_sol.png)
 
 `Flag: CodefestCTF{JustAnAverageGuy}`
-
----
 
 ## Present Sir!
 
@@ -110,8 +104,6 @@ Back to the first challenge. When I was searching using his name again on Google
 ![](https://grey-4.github.io/picture-repo/codefestctf/Present%20Sir!_sol_1.png)
 
 `Flag: CodefestCTF{22075013}`
-
----
 
 ## Why do they even need this?
 
@@ -128,8 +120,6 @@ By doing `owner:JustAnAverageGuy /home`, I got his username, which is `aks`. But
 ![](https://grey-4.github.io/picture-repo/codefestctf/Why%20do%20they%20even%20need%20this%3F_sol_!.png)
 
 `Flag: CodefestCTF{aks_aks-Inspiron-3505}`
-
----
 
 ## KVT
 
@@ -181,16 +171,12 @@ Just like the challenge before:
 
 `Flag: CodefestCTF{25.2779_83.0024}`
 
----
-
 This concludes the OSINT challenges. I had a lot of fun solving the challenges, except when I couldn’t.
 
 Takeaway:
 
 > What do you know about Arnav Kumar Sinha?  
 > Me: Yes
-
----
 
 # Forensics/Steg
 
@@ -210,8 +196,6 @@ Inputting the image in Aperisolve, I started looking for any hints. Then I found
 
 `Flag: CodefestCTF{51mpl3_lsb_573g0_ftw}`
 
----
-
 ## Cats
 
 Desc:
@@ -220,17 +204,13 @@ Desc:
 
 In this challenge, many people (me >.<) struggled to solve it because you need to use the right tool. Using `stegseek` with `rockyou.txt`, we can extract the text file from the image and get the flag.
 
-bash
-
-CopyEdit
-
-`stegseek chall.jpg /path/to/rockyou.txt`
+```
+stegseek chall.jpg /path/to/rockyou.txt`
+```
 
 ![](https://grey-4.github.io/picture-repo/codefestctf/cats_sol.png)
 
 `Flag: CodefestCTF{573gh1de_ch4ll_m30w}`
-
----
 
 ## RickRoll
 
@@ -260,8 +240,6 @@ Inputting it as the password, we successfully get a Base64 string, and decoding 
 
 `Flag: CodefestCTF{1e55_kn0wn_573g0_700l}`
 
----
-
 # **Crypto**
 
 ## Rat with Wings?
@@ -279,8 +257,6 @@ Decoding it, I got:
 ![](https://grey-4.github.io/picture-repo/codefestctf/Rat%20with%20Wings%3F_sol_1.png)
 
 `Flag: CodefestCTF{IAMBATMAN}`
-
----
 
 # Pwn
 
@@ -370,8 +346,6 @@ p.interactive()
 
 Running the exploit, we were able to modify the value in `var_14h` and trigger the `win()` function.
 
----
-
 # Rev
 
 ## Bank
@@ -460,8 +434,6 @@ Running the script, I got:
 
 `Flag: CodefestCTF{n0_10g1c_15_54f3_75lFUPCZ}`
 
----
-
 ## Nothing
 
 Desc:
@@ -543,15 +515,11 @@ Key logic:
 
 `Flag: CodefestCTF{n0_pr1n71ng_m4y_m34n_s0m37h1ng}`
 
----
-
 # Misc
 
 ## Feedback
 
 Click the link, give feedback, and submit it to get the flag.
-
----
 
 ## Sanity
 
