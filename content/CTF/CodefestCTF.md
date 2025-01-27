@@ -559,7 +559,7 @@ The well-awaited sanity challenge. The FINAL BOSS!
 
 > The solution for sanity is.. (author has been kidnapped)  
 > 5 mins later  
-> *Hoof..._ *pants..._ The OTHERS are targeting me for trying to reveal the answer. I don't know if I can live past this. I don't think I have the time to give the full solution.  
+> *Hoof... *pants... The OTHERS are targeting me for trying to reveal the answer. I don't know if I can live past this. I don't think I have the time to give the full solution.  
 > But I will give a hint:  
 > This is not the only time a challenge named sanity or sanity check has appeared.  
 > Oh no!!! They are here! Goodbye, guys!...  
