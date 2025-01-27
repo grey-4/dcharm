@@ -535,7 +535,7 @@ The well-awaited sanity challenge. The FINAL BOSS!
 
 ---
 
-### **Conclusion**
+# Conclusion
 
 This CTF was fun. I had lots of learning and exploration. And I scored well too!
 
