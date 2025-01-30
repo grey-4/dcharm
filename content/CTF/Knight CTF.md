@@ -7,7 +7,7 @@ Last week, Our team participated in the Knight CTF 2025. We placed 171th out of 
 
 ## The Hidden Quest
 
-Description :
+Desc :
 
 ![](https://grey-4.github.io/picture-repo/knightctf/The%20Hidden%20Quest/2025-01-25_09-06.png)
 
@@ -27,4 +27,18 @@ By zooming in , we can see the flag
 ![](https://grey-4.github.io/picture-repo/knightctf/The%20Hidden%20Quest/flag_zoomed.png)
 
 Flag : `KCTF{w0W_y0U_G07_m3_}`
+
+# Networking 
+
+## The Server's Identity 
+
+Desc:
+
+![](https://grey-4.github.io/picture-repo/knightctf/The%20Server%5C'%20s%20Identity/2025-01-29_13-33.png)
+
+We were given an pcapng which can used with wireshark to analyse the packets. So After inputting the pcapng file. We can see that It has a lot of http requests. By the checking the first package itself and checking the data in it, We are able to make out the hostname.
+
+![](https://grey-4.github.io/picture-repo/knightctf/The%20Server%5C'%20s%20Identity/sol.png)
+
+Flag: `KCTF{localhost.localdomain}`
 

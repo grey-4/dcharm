@@ -218,7 +218,7 @@ Desc:
 
 ![](https://grey-4.github.io/picture-repo/codefestctf/RickRoll.png)
 
-The "I" in the description refers to the author (0xkn1gh7). Since the said tool is documented and related, my idea was that it would be mentioned in a write-up. So I searched using his name and got this:
+The "I" in the description refers to the author (0xkn1gh7). Since the said tool is documented and related to ctf, my idea was that it would be mentioned in a write-up. So I searched using his name and got this:
 
 ![](https://grey-4.github.io/picture-repo/codefestctf/RickRoll_sol.png)
 

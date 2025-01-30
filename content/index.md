@@ -8,7 +8,7 @@ title: My Writeup Groove
 >Rage against the machine
 
 Hello everyone!  
-This is me, dcharm, and welcome to my digital garden.  
+This is me, Dcharm, and welcome to my digital garden.  
 Though I call it a digital garden, I won't put on blogs or notes. This site is solely for the purpose of writeups alone.  
 My interests are solely reverse engineering and Iot & embedded security.   
 but I also do CTF challenges on,  
